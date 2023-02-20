@@ -1,23 +1,23 @@
 # ChroMapper-HitSoundShortTimeChange
 
-ChroMapper‚ÍƒqƒbƒgƒTƒEƒ“ƒh‚ªè‡’l(0.5•b)–¢–‚¾‚Æ‰¹‚ª•Ï‚í‚è‚Ü‚·‚ªA‚»‚Ìİ’è’l‚ğ•ÏX‚·‚éƒpƒbƒ`‚Å‚·B
+ChroMapperã¯ãƒ’ãƒƒãƒˆã‚µã‚¦ãƒ³ãƒ‰ãŒé–¾å€¤(0.5æ‹)æœªæº€ã ã¨éŸ³ãŒå¤‰ã‚ã‚Šã¾ã™ãŒã€ãã®è¨­å®šå€¤ã‚’å¤‰æ›´ã™ã‚‹ãƒ‘ãƒƒãƒã§ã™ã€‚
 
-ƒvƒ‰ƒOƒCƒ“‚ğƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‹N“®‚·‚é‚Æ
+ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦èµ·å‹•ã™ã‚‹ã¨
 ```
-C:\Users\ƒ†[ƒU[–¼\AppData\LocalLow\BinaryElement\ChroMapper\HitSoundShortTimeChange.json
+C:\Users\ãƒ¦ãƒ¼ã‚¶ãƒ¼å\AppData\LocalLow\BinaryElement\ChroMapper\HitSoundShortTimeChange.json
 ```
-‚ªì¬‚³‚ê‚é‚Ì‚ÅAƒƒ‚’ ‚È‚Ç‚ÅŠJ‚¢‚Ä
+ãŒä½œæˆã•ã‚Œã‚‹ã®ã§ã€ãƒ¡ãƒ¢å¸³ãªã©ã§é–‹ã„ã¦
 ```
 {
   "thresholdInNoteTime" : "0.2"
 }
 ```
-thresholdInNoteTime‚Ì’l‚ğ•ÏX‚µ‚Ü‚·B0‚É‚·‚é‚Æ‰¹‚ª•Ï‚í‚ç‚È‚­‚È‚è‚Ü‚·B
+thresholdInNoteTimeã®å€¤ã‚’å¤‰æ›´ã—ã¾ã™ã€‚0ã«ã™ã‚‹ã¨éŸ³ãŒå¤‰ã‚ã‚‰ãªããªã‚Šã¾ã™ã€‚
 
-ChroMapper‹N“®‚É‚µ‚©İ’è‚³‚ê‚È‚¢‚Ì‚ÅAİ’è’l‚ğ•ÏX‚µ‚½ê‡‚ÍChroMapper‚ğÄ‹N“®‚µ‚Ä‚­‚¾‚³‚¢B
+ChroMapperèµ·å‹•æ™‚ã«ã—ã‹è¨­å®šã•ã‚Œãªã„ã®ã§ã€è¨­å®šå€¤ã‚’å¤‰æ›´ã—ãŸå ´åˆã¯ChroMapperã‚’å†èµ·å‹•ã—ã¦ãã ã•ã„ã€‚
 
-# ŠJ”­Òî•ñ (Developers)
-‚±‚ÌƒvƒƒWƒFƒNƒg‚ğƒrƒ‹ƒh‚·‚é‚É‚ÍAChroMapper‚ÌƒCƒ“ƒXƒg[ƒ‹ƒpƒX‚ğw’è‚·‚é`ChroMapper-HitSoundShortTimeChange\ChroMapper-HitSoundShortTimeChange.csproj.user`ƒtƒ@ƒCƒ‹‚ğì¬‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+# é–‹ç™ºè€…æƒ…å ± (Developers)
+ã“ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’ãƒ“ãƒ«ãƒ‰ã™ã‚‹ã«ã¯ã€ChroMapperã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ‘ã‚¹ã‚’æŒ‡å®šã™ã‚‹`ChroMapper-HitSoundShortTimeChange\ChroMapper-HitSoundShortTimeChange.csproj.user`ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
 
 To build this project, you must create a `ChroMapper-HitSoundShortTimeChange\ChroMapper-HitSoundShortTimeChange.csproj.user` file that specifies the ChroMapper installation path.
 
