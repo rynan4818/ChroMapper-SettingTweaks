@@ -45,4 +45,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetFileName)" "$(ChroMapperDir)\Plugins"
+if $(ConfigurationName)==Release (
+  if not exist "$(ProjectDir)ReleasesArchives\Release\Plugins" mkdir "$(ProjectDir)ReleasesArchives\Release\Plugins"
+  copy /Y "$(TargetFileName)" "$(ProjectDir)ReleasesArchives\Release\Plugins"
+  if exist "$(ProjectDir)ReleasesArchives\$(AssemblyName)-.zip" del "$(ProjectDir)ReleasesArchives\$(AssemblyName)-.zip"
+  powershell compress-archive -Path "$(ProjectDir)ReleasesArchives\Release\*" -DestinationPath "$(ProjectDir)ReleasesArchives\$(AssemblyName)-.zip"
+)</PostBuildEvent>
+  </PropertyGroup>
 </Project>

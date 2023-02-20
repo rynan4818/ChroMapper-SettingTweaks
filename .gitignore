@@ -397,7 +397,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-#ChroMapper-RhythmMarker
-ChroMapper-RhythmMarker-*.zip
-ChroMapper-RhythmMarker*.dll
+#ChroMapper-HitSoundShortTimeChange
+ChroMapper-HitSoundShortTimeChange-*.zip
+ChroMapper-HitSoundShortTimeChange*.dll
 temp/
