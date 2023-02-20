@@ -1,5 +1,19 @@
 # ChroMapper-HitSoundShortTimeChange
 
+ChroMapperはヒットサウンドが閾値(0.5秒)未満だと音が変わりますが、その設定値を変更するパッチです。
+
+プラグインをインストールして起動すると
+```
+C:\Users\ユーザー名\AppData\LocalLow\BinaryElement\ChroMapper\HitSoundShortTimeChange.json
+```
+が作成されるので、メモ帳などで開いて
+```
+{
+  "thresholdInNoteTime" : "0.2"
+}
+```
+thresholdInNoteTimeの値を変更します。0にすると音が変わらなくなります。
+
 # 開発者情報 (Developers)
 このプロジェクトをビルドするには、ChroMapperのインストールパスを指定する`ChroMapper-RhythmMarker\ChroMapper-RhythmMarker.csproj.user`ファイルを作成する必要があります。
 
