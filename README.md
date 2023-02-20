@@ -14,10 +14,12 @@ C:\Users\ユーザー名\AppData\LocalLow\BinaryElement\ChroMapper\HitSoundShortTimeC
 ```
 thresholdInNoteTimeの値を変更します。0にすると音が変わらなくなります。
 
-# 開発者情報 (Developers)
-このプロジェクトをビルドするには、ChroMapperのインストールパスを指定する`ChroMapper-RhythmMarker\ChroMapper-RhythmMarker.csproj.user`ファイルを作成する必要があります。
+ChroMapper起動時にしか設定されないので、設定値を変更した場合はChroMapperを再起動してください。
 
-To build this project, you must create a `ChroMapper-RhythmMarker\ChroMapper-RhythmMarker.csproj.user` file that specifies the ChroMapper installation path.
+# 開発者情報 (Developers)
+このプロジェクトをビルドするには、ChroMapperのインストールパスを指定する`ChroMapper-HitSoundShortTimeChange\ChroMapper-HitSoundShortTimeChange.csproj.user`ファイルを作成する必要があります。
+
+To build this project, you must create a `ChroMapper-HitSoundShortTimeChange\ChroMapper-HitSoundShortTimeChange.csproj.user` file that specifies the ChroMapper installation path.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
