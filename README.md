@@ -1,6 +1,17 @@
 # ChroMapper-SettingTweaks
 
-ChroMapperはヒットサウンドが閾値(0.5拍)未満だと音が変わりますが、その設定値を変更するパッチです。
+ChroMapperの変更できない設定を変更する、ちょっとしたプラグインです。
+
+## 設定項目
+
+### thresholdInNoteTime
+ChroMapperはヒットサウンドが閾値(0.5拍)未満だと音が変わりますが、その設定値を変更します。
+値を0にすると音が変わらなくなります。
+
+### CustomSongsFolder
+Custom Levelsフォルダを、全く別のフォルダに変更します。フォルダの\は\\(￥を￥￥）でエスケープしてください。
+
+## 使い方
 
 プラグインをインストールして起動すると
 ```
@@ -9,10 +20,10 @@ C:\Users\ユーザー名\AppData\LocalLow\BinaryElement\ChroMapper\SettingTweaks
 が作成されるので、メモ帳などで開いて
 ```
 {
-  "thresholdInNoteTime" : "0.2"
+  "thresholdInNoteTime" : "0.2",
+  "CustomSongsFolder" : "C:\\MappingData\\Beat Saber_Data\\CustomLevels"
 }
 ```
-thresholdInNoteTimeの値を変更します。0にすると音が変わらなくなります。
 
 ChroMapper起動時にしか設定されないので、設定値を変更した場合はChroMapperを再起動してください。
 
