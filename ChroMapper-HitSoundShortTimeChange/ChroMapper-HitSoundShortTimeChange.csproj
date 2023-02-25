@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Configuration\Options.cs" />
     <Compile Include="HarmonyPatches\DingOnNotePassingGridPatch.cs" />
+    <Compile Include="HarmonyPatches\SettingsPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

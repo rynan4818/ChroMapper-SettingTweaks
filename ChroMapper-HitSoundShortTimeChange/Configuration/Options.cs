@@ -12,6 +12,7 @@ namespace ChroMapper_HitSoundShortTimeChange.Configuration
         public static readonly string settingJsonFile = Application.persistentDataPath + "/HitSoundShortTimeChange.json";
 
         public float thresholdInNoteTime = 0.5f;
+        public string CustomSongsFolder = "";
         public static Options Instance
         {
             get
