@@ -7,8 +7,8 @@
     <ProjectGuid>{58CAE7FA-48FE-478B-B123-28CC16017FB1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChroMapper_HitSoundShortTimeChange</RootNamespace>
-    <AssemblyName>ChroMapper-HitSoundShortTimeChange</AssemblyName>
+    <RootNamespace>ChroMapper_SettingTweaks</RootNamespace>
+    <AssemblyName>ChroMapper-SettingTweaks</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,8 +1,8 @@
-﻿using ChroMapper_HitSoundShortTimeChange.Configuration;
+﻿using ChroMapper_SettingTweaks.Configuration;
 using HarmonyLib;
 using System.IO;
 
-namespace ChroMapper_HitSoundShortTimeChange.HarmonyPatches
+namespace ChroMapper_SettingTweaks.HarmonyPatches
 {
     [HarmonyPatch(typeof(Settings), "CustomSongsFolder", MethodType.Getter)]
     public class SettingsPatch

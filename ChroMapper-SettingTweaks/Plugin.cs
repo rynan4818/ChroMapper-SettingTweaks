@@ -2,13 +2,13 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace ChroMapper_HitSoundShortTimeChange
+namespace ChroMapper_SettingTweaks
 {
     [Plugin("HitSound ShortTimeChange")]
     public class Plugin
     {
         public static Harmony _harmony;
-        public const string HARMONY_ID = "com.github.rynan4818.ChroMapper-HitSoundShortTimeChange";
+        public const string HARMONY_ID = "com.github.rynan4818.ChroMapper-SettingTweaks";
         [Init]
         private void Init()
         {

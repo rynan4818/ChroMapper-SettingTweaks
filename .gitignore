@@ -397,7 +397,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-#ChroMapper-HitSoundShortTimeChange
-ChroMapper-HitSoundShortTimeChange-*.zip
-ChroMapper-HitSoundShortTimeChange*.dll
+#ChroMapper-SettingTweaks
+ChroMapper-SettingTweaks-*.zip
+ChroMapper-SettingTweaks*.dll
 temp/

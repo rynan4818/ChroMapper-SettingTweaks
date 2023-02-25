@@ -1,7 +1,7 @@
-﻿using ChroMapper_HitSoundShortTimeChange.Configuration;
+﻿using ChroMapper_SettingTweaks.Configuration;
 using HarmonyLib;
 
-namespace ChroMapper_HitSoundShortTimeChange.HarmonyPatches
+namespace ChroMapper_SettingTweaks.HarmonyPatches
 {
     [HarmonyPatch(typeof(DingOnNotePassingGrid), "PlaySound")]
     public class DingOnNotePassingGridPatch

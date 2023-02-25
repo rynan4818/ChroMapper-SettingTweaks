@@ -4,12 +4,12 @@ using System.IO;
 using UnityEngine;
 using SimpleJSON;
 
-namespace ChroMapper_HitSoundShortTimeChange.Configuration
+namespace ChroMapper_SettingTweaks.Configuration
 {
     public class Options
     {
         private static Options instance;
-        public static readonly string settingJsonFile = Application.persistentDataPath + "/HitSoundShortTimeChange.json";
+        public static readonly string settingJsonFile = Application.persistentDataPath + "/SettingTweaks.json";
 
         public float thresholdInNoteTime = 0.5f;
         public string CustomSongsFolder = "";
