@@ -13,6 +13,8 @@ namespace ChroMapper_SettingTweaks.Configuration
 
         public float thresholdInNoteTime = 0.5f;
         public string CustomSongsFolder = "";
+        public bool CustomCMChan = true;
+        public bool DefaultCMChan = true;
         public static Options Instance
         {
             get

@@ -34,8 +34,31 @@
     <Reference Include="Main">
       <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\Main.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ChroMapperDir)\ChroMapper_Data\Managed\UnityEngine.UIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="0Harmony">
@@ -56,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\Options.cs" />
+    <Compile Include="CustomCMChan.cs" />
     <Compile Include="HarmonyPatches\DingOnNotePassingGridPatch.cs" />
     <Compile Include="HarmonyPatches\SettingsPatch.cs" />
     <Compile Include="Plugin.cs" />

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ChroMapper_SettingTweaks
 {
-    [Plugin("HitSound ShortTimeChange")]
+    [Plugin("Setting Tweaks")]
     public class Plugin
     {
         public static Harmony _harmony;
@@ -14,13 +14,14 @@ namespace ChroMapper_SettingTweaks
         {
             _harmony = new Harmony(HARMONY_ID);
             _harmony.PatchAll(Assembly.GetExecutingAssembly());
-            Debug.Log("HitSound ShortTimeChange Plugin has loaded!");
+            new CustomCMChan().LoadCustomCMChan();
+            Debug.Log("Setting Tweaks Plugin has loaded!");
         }
         [Exit]
         private void Exit()
         {
             _harmony.UnpatchAll(HARMONY_ID);
-            Debug.Log("HitSound ShortTimeChangee Plugin has closed!");
+            Debug.Log("Setting Tweaks Plugin has closed!");
         }
     }
 }
