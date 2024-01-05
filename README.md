@@ -9,10 +9,12 @@ ChroMapperはヒットサウンドが閾値(0.5拍)未満だと音が変わり�
 値を0にすると音が変わらなくなります。
 
 ### CustomSongsFolder (デフォルト:"")
-Custom Levelsフォルダを、全く別のフォルダに変更します。フォルダの\は\\\\(￥を￥￥）でエスケープしてください。""の場合は変更しません。
+Custom Levelsフォルダを、全く別のフォルダに変更します。Custom Levelsを第2のWIPフォルダに変更したり、大量にあるCustom Levelsの譜面を読み込ませないようにしたい場合に使用します。
+フォルダの\は\\\\(￥を￥￥）でエスケープしてください。""の場合は変更しません。
 
 ### CustomCMChan (デフォルト:True)
 Trueにすると、CM Chan有効時に、ChroMapper設定フォルダの中にある`CustomCMChan`の画像ファイル(PNG,JPEG)を表示リストに追加します。
+![customCMchan](https://github.com/rynan4818/ChroMapper-SettingTweaks/assets/14249877/6cb68b2b-632c-40b0-b829-2a5f2bdbbb34)
 
 CustomCMChan用画像フォルダ(自動作成されます)
 ```
