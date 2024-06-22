@@ -20,7 +20,7 @@ namespace ChroMapper_SettingTweaks
         [Exit]
         private void Exit()
         {
-            _harmony.UnpatchAll(HARMONY_ID);
+            _harmony.UnpatchSelf();
             Debug.Log("Setting Tweaks Plugin has closed!");
         }
     }
